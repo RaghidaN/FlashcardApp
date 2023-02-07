@@ -53,11 +53,11 @@ export default function DeckList({ decks }) {
               </div>
               <div className="">
                 <button
-                  className="btn btn-danger"
+                  className="btn btn-danger mr-2"
                   type="button"
                   onClick={() => handleDelete(deck.id)}
                 >
-                  <i className="fa-solid fa-trash-can"></i>
+                  <i className="fa-solid fa-trash-can"></i> Delete
                 </button>
               </div>
             </div>
